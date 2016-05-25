@@ -1,56 +1,52 @@
-class ArticlesController < ApplicationController
-  #http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
+module Api
+  module V1
+    class ArticlesController < ApplicationController
+      #http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
 
-  respond_to :json
-    before_action :set_article, only: [:show, :destroy, :update]
+      respond_to :json
+      before_action :set_article, only: [:show, :destroy, :update]
 
-  def index
-    @articles = Article.all
-    respond_with @articles
-  end
+      def index
+        @articles = Article.all
+        respond_with @articles
+      end
 
-  def show
-    @article = Article.find(params[:id])
-      respond_to do |format|
-      format.html
-      format.json {render json: @article, root: false}
+      def show
+        respond_with @article
+      end
+      
+      def create
+        @article = Article.new article_params
+        if @article.save
+          respond_with @article, status: :created, location: false
+        else
+          respond_with @article, status: 422, location: false
+        end
+      end
+
+      def update
+        if @article.update article_params
+          render json: @article
+        else
+          respond_with @article, status: 422, location: false
+        end
+      end
+
+      def destroy
+        @article.destroy
+        head :ok
+      end
+
+      private
+      def set_article
+        @article = Article.find params[:id]
+      end
+
+      private
+      def article_params
+        params.require(:article).permit(:title, :text)
+      end
     end
   end
-
-  def new
-	@article = Article.new
-  end
-  
-  def edit
-	@article = Article.find(params[:id])
-  end
-  
-  def create
-		@article = Article.new(article_params) # Article is referred to the class Article defined in models/article.rb
-		if @article.save
-			redirect_to @article
-		else 
-			render 'new'
-		end
-  end
-  
-  def update
-		@article = Article.find(params[:id])
-		if @article.update(article_params)
-			redirect_to @article
-		else
-			render 'edit'
-		end
-  end
-  
-  def destroy
-    @article = Article.find(params[:id])
-    @article.destroy
-    redirect_to articles_path
-  end
-  
-  private
-  def article_params
-    params.require(:article).permit(:title, :text, :tag_list)
-  end
 end
+
