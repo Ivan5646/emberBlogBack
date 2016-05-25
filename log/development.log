@@ -1,0 +1,2379 @@
+Started GET "/" for 127.0.0.1 at 2016-05-23 16:44:09 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (14262.6ms)
+Completed 500 Internal Server Error in 14425ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: watch /home/mikhail/projects/blog/frontend/app ENOSPC
+):
+  Error: watch frontend/app ENOSPC
+
+    at exports._errnoException (util.js:870:11)
+
+    at FSWatcher.start (fs.js:1234:19)
+
+    at Object.fs.watch (fs.js:1262:11)
+
+    at NodeWatcher.watchdir (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:144:20)
+
+    at new NodeWatcher (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:45:8)
+
+    at new sane (frontend/node_modules/ember-cli/node_modules/sane/index.js:17:12)
+
+    at EventEmitter.Watcher_addWatchDir [as addWatchDir] (frontend/node_modules/ember-cli/node_modules/broccoli-sane-watcher/index.js:93:17)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-broccoli/lib/builder.js:95:35
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+  The broccoli plugin was instantiated at: 
+
+    at WatchedDir.Directory (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:14:31)
+
+    at new WatchedDir (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:58:13)
+
+    at EmberApp._initOptions (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:221:16)
+
+    at new EmberApp (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:93:8)
+
+    at module.exports (frontend/ember-cli-build.js:6:13)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (75.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.5ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-23 16:51:58 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (12027.2ms)
+Completed 200 OK in 12043ms (Views: 12034.0ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 16:52:10 +0700
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 16:52:10 +0700
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-23 16:52:10 +0700
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-23 16:52:10 +0700
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-23 16:52:11 +0700
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 315ms (Views: 291.6ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 16:52:40 +0700
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 16:52:40 +0700
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-23 16:52:40 +0700
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-23 16:52:40 +0700
+Started GET "/articles" for 127.0.0.1 at 2016-05-23 16:54:00 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.6ms)
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-23 16:54:00 +0700
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 16:54:00 +0700
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 16:54:00 +0700
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-23 16:54:00 +0700
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-23 16:54:01 +0700
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 10ms (Views: 8.1ms)
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-23 16:54:01 +0700
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-23 16:54:01 +0700
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 16:56:51 +0700
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 16:56:51 +0700
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-23 16:56:51 +0700
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-23 16:56:51 +0700
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:01:42 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"", "text"=>""}}
+Completed 422 Unprocessable Entity in 38ms (Views: 0.2ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:03:52 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (3.4ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (:frontend has failed to build: undefined
+):
+  undefined
+
+  The broccoli plugin was instantiated at: 
+
+  undefined
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (15.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (36.1ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:04:01 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (4.4ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (:frontend has failed to build: undefined
+):
+  undefined
+
+  The broccoli plugin was instantiated at: 
+
+  undefined
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (12.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (24.3ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:04:19 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.8ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (:frontend has failed to build: undefined
+):
+  undefined
+
+  The broccoli plugin was instantiated at: 
+
+  undefined
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (34.3ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:04:35 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.6ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (:frontend has failed to build: undefined
+):
+  undefined
+
+  The broccoli plugin was instantiated at: 
+
+  undefined
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (10.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (23.5ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:04:41 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (2.2ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (:frontend has failed to build: undefined
+):
+  undefined
+
+  The broccoli plugin was instantiated at: 
+
+  undefined
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (18.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (4.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (40.6ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:05:07 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (4017.3ms)
+Completed 500 Internal Server Error in 4029ms
+
+ActionView::Template::Error (:frontend has failed to build: undefined
+):
+  undefined
+
+  The broccoli plugin was instantiated at: 
+
+  undefined
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (29.5ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:05:56 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (4420.7ms)
+Completed 200 OK in 4439ms (Views: 4428.6ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 17:06:01 +0700
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-23 17:06:01 +0700
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-23 17:06:01 +0700
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 17:06:01 +0700
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-23 17:06:01 +0700
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-23 17:06:01 +0700
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:06:25 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered inline template (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.5ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 17:06:25 +0700
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-23 17:06:25 +0700
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-23 17:06:25 +0700
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 17:06:25 +0700
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-23 17:06:26 +0700
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-23 17:06:26 +0700
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:06:27 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 15ms (Views: 0.2ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:06:28 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:06:28 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:06:29 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:06:48 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-23 17:07:21 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 17:07:21 +0700
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 17:07:21 +0700
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-23 17:07:21 +0700
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-23 17:07:21 +0700
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-23 17:07:21 +0700
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-23 17:07:21 +0700
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:07:22 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:07:23 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 0.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:07:23 +0700
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>nil, "text"=>nil}}
+Completed 422 Unprocessable Entity in 4ms (Views: 1.2ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-23 17:08:06 +0700
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 31ms (Views: 21.1ms)
+Started GET "/" for 127.0.0.1 at 2016-05-23 17:32:49 +0700
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (4316.3ms)
+Completed 200 OK in 4327ms (Views: 4320.9ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-23 17:32:54 +0700
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-23 17:32:54 +0700
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-23 17:32:54 +0700
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-23 17:32:54 +0700
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-23 17:32:54 +0700
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-23 17:32:54 +0700
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-23 19:03:21 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 42ms (Views: 23.4ms)
+Started GET "/" for 127.0.0.1 at 2016-05-24 12:29:48 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (27511.1ms)
+Completed 500 Internal Server Error in 28093ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: watch /home/mikhail/projects/blog/frontend/app ENOSPC
+):
+  Error: watch frontend/app ENOSPC
+
+    at exports._errnoException (util.js:870:11)
+
+    at FSWatcher.start (fs.js:1234:19)
+
+    at Object.fs.watch (fs.js:1262:11)
+
+    at NodeWatcher.watchdir (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:144:20)
+
+    at new NodeWatcher (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:45:8)
+
+    at new sane (frontend/node_modules/ember-cli/node_modules/sane/index.js:17:12)
+
+    at EventEmitter.Watcher_addWatchDir [as addWatchDir] (frontend/node_modules/ember-cli/node_modules/broccoli-sane-watcher/index.js:93:17)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-broccoli/lib/builder.js:95:35
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+  The broccoli plugin was instantiated at: 
+
+    at WatchedDir.Directory (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:14:31)
+
+    at new WatchedDir (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:58:13)
+
+    at EmberApp._initOptions (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:221:16)
+
+    at new EmberApp (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:93:8)
+
+    at module.exports (frontend/ember-cli-build.js:6:13)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (121.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (165.5ms)
+Started GET "/" for 127.0.0.1 at 2016-05-24 12:30:42 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (3318.5ms)
+Completed 500 Internal Server Error in 3330ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: watch /home/mikhail/projects/blog/frontend/app ENOSPC
+):
+  Error: watch frontend/app ENOSPC
+
+    at exports._errnoException (util.js:870:11)
+
+    at FSWatcher.start (fs.js:1234:19)
+
+    at Object.fs.watch (fs.js:1262:11)
+
+    at NodeWatcher.watchdir (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:144:20)
+
+    at new NodeWatcher (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:45:8)
+
+    at new sane (frontend/node_modules/ember-cli/node_modules/sane/index.js:17:12)
+
+    at EventEmitter.Watcher_addWatchDir [as addWatchDir] (frontend/node_modules/ember-cli/node_modules/broccoli-sane-watcher/index.js:93:17)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-broccoli/lib/builder.js:95:35
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+  The broccoli plugin was instantiated at: 
+
+    at WatchedDir.Directory (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:14:31)
+
+    at new WatchedDir (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:58:13)
+
+    at EmberApp._initOptions (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:221:16)
+
+    at new EmberApp (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:93:8)
+
+    at module.exports (frontend/ember-cli-build.js:6:13)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.1ms)
+Started GET "/" for 127.0.0.1 at 2016-05-24 12:32:46 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (3319.8ms)
+Completed 500 Internal Server Error in 3336ms
+
+ActionView::Template::Error (:frontend has failed to build: Error: watch /home/mikhail/projects/blog/frontend/app ENOSPC
+):
+  Error: watch frontend/app ENOSPC
+
+    at exports._errnoException (util.js:870:11)
+
+    at FSWatcher.start (fs.js:1234:19)
+
+    at Object.fs.watch (fs.js:1262:11)
+
+    at NodeWatcher.watchdir (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:144:20)
+
+    at new NodeWatcher (frontend/node_modules/ember-cli/node_modules/sane/src/node_watcher.js:45:8)
+
+    at new sane (frontend/node_modules/ember-cli/node_modules/sane/index.js:17:12)
+
+    at EventEmitter.Watcher_addWatchDir [as addWatchDir] (frontend/node_modules/ember-cli/node_modules/broccoli-sane-watcher/index.js:93:17)
+
+    at frontend/node_modules/ember-cli/node_modules/ember-cli-broccoli/lib/builder.js:95:35
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+  The broccoli plugin was instantiated at: 
+
+    at WatchedDir.Directory (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:14:31)
+
+    at new WatchedDir (frontend/node_modules/ember-cli/node_modules/broccoli-source/index.js:58:13)
+
+    at EmberApp._initOptions (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:221:16)
+
+    at new EmberApp (frontend/node_modules/ember-cli/lib/broccoli/ember-app.js:93:8)
+
+    at module.exports (frontend/ember-cli-build.js:6:13)
+
+    at Class.module.exports.Task.extend.setupBroccoliBuilder (frontend/node_modules/ember-cli/lib/models/builder.js:55:19)
+
+    at Class.module.exports.Task.extend.init (frontend/node_modules/ember-cli/lib/models/builder.js:89:10)
+
+    at new Class (frontend/node_modules/ember-cli/node_modules/core-object/core-object.js:18:12)
+
+    at Class.module.exports.Task.extend.run (frontend/node_modules/ember-cli/lib/tasks/build-watch.js:17:16)
+
+    at frontend/node_modules/ember-cli/lib/commands/build.js:28:24
+
+    at lib$rsvp$$internal$$tryCatch (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1036:16)
+
+    at lib$rsvp$$internal$$invokeCallback (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1048:17)
+
+    at frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:331:11
+
+    at lib$rsvp$asap$$flush (frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+
+    at nextTickCallbackWith0Args (node.js:420:9)
+
+    at process._tickCallback (node.js:349:13)
+
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (13.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (17.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (31.0ms)
+Started GET "/" for 127.0.0.1 at 2016-05-24 12:41:26 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (11615.5ms)
+Completed 200 OK in 11617ms (Views: 11616.7ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-24 12:41:38 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-24 12:41:38 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-24 12:41:38 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-24 12:41:38 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-24 12:43:09 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 89ms (Views: 39.7ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-24 12:43:12 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-24 12:43:12 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-24 12:43:12 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-24 12:43:12 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-24 14:24:20 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (22540.5ms)
+Completed 200 OK in 22592ms (Views: 22573.8ms)
+Started GET "/" for 127.0.0.1 at 2016-05-24 14:24:42 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.3ms)
+Completed 200 OK in 4ms (Views: 3.1ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-24 14:24:42 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-24 14:24:43 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-24 14:24:43 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-24 14:24:43 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-24 14:24:43 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-24 14:24:43 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-24 14:24:49 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 647ms (Views: 55.9ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-24 14:24:54 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 15ms (Views: 12.0ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-24 14:35:49 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 11ms (Views: 8.0ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.6ms)
+Completed 200 OK in 4ms (Views: 3.5ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 10ms (Views: 7.6ms)
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-24 14:53:02 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-24 14:53:05 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.3ms)
+Completed 200 OK in 4ms (Views: 3.2ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-24 14:53:05 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-24 14:53:05 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-24 14:53:05 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-24 14:53:05 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-24 14:53:05 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-24 14:53:05 +0600
+Started GET "/articles/the-first-one.html" for 127.0.0.1 at 2016-05-24 15:49:34 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/the-first-one"}
+  Rendered inline template (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (25918.6ms)
+Completed 200 OK in 25989ms (Views: 25969.1ms)
+Started GET "/a" for 127.0.0.1 at 2016-05-24 15:50:00 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"a"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+Started GET "/" for 127.0.0.1 at 2016-05-24 15:50:00 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-24 15:50:00 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-24 15:50:00 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-24 15:50:00 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-24 15:50:00 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-24 15:50:01 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-24 15:50:01 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-24 15:50:37 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.9ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-24 15:50:37 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-24 15:50:37 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-24 15:50:37 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-24 15:50:37 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-24 15:53:08 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 109ms (Views: 39.3ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:04:13 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (32696.0ms)
+Completed 200 OK in 32755ms (Views: 32730.1ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:04:46 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:04:46 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:04:46 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:04:46 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:04:47 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:04:47 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:16:58 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (12855.6ms)
+Completed 200 OK in 12901ms (Views: 12878.0ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:17:11 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:17:11 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:17:11 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:17:11 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:17:12 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:17:12 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:17:15 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 2488ms (Views: 2376.7ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:17:48 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:17:48 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:17:48 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:17:48 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:17:48 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:17:48 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 9ms (Views: 6.9ms)
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:17:49 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:17:49 +0600
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:17:51 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.8ms)
+Completed 200 OK in 5ms (Views: 3.7ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:17:51 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:17:51 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:17:51 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:17:51 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:17:52 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 15ms (Views: 11.7ms)
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:17:52 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:17:52 +0600
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:21:25 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.4ms)
+Completed 200 OK in 4ms (Views: 2.6ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:21:25 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:21:25 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:21:25 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:21:25 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:21:26 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (18.9ms)
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:21:26 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:21:26 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.8ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:21:33 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:21:34 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:21:34 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:21:38 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.6ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:21:43 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.3ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:21:45 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.9ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:21:45 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:21:45 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:21:45 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:21:45 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:21:45 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (13.4ms)
+Started GET "/articles/new" for 127.0.0.1 at 2016-05-25 16:21:52 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles/new"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.9ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:21:52 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:21:52 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:21:52 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:21:52 +0600
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:22:06 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (20.7ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:22:08 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (27.5ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:22:09 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (20.0ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:22:09 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (20.9ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:22:10 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.5ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:22:10 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (18.5ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:22:14 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (16.3ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:24:30 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (24.8ms)
+Completed 200 OK in 40ms (Views: 39.3ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:24:30 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:24:31 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:24:31 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:24:31 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:24:31 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (28.9ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:24:40 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.8ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:24:40 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:24:40 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:24:40 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:24:40 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:24:40 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:24:40 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:24:41 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.2ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:24:47 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.8ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:24:47 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:24:47 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:24:47 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:24:47 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:24:47 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.1ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:24:56 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (13.4ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:25:03 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (27.6ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:25:06 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.2ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:25:06 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:25:06 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:25:06 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:25:06 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:25:06 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (13.4ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:25:11 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:25:12 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 1.3ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:25:12 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:25:12 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:25:12 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:25:12 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:25:12 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:25:12 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:25:14 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (15.7ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:25:43 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:25:43 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:25:43 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:25:44 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:25:44 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:25:44 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:25:44 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:25:45 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.1ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (17.6ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:25:58 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.4ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:26:04 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.6ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:26:08 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.3ms)
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:27:07 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:27:07 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:27:07 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:27:07 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:27:07 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:27:08 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.0ms)
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:27:08 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:27:08 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:27:18 +0600
+Started GET "/articles" for 127.0.0.1 at 2016-05-25 16:27:21 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend, "rest"=>"articles"}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.2ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:27:21 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:27:21 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:27:21 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:27:21 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:27:22 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:27:36 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (20.1ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.5ms)
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:27:47 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:27:50 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (13.8ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:27:58 +0600
+
+TypeError (superclass mismatch for class ArticlesController):
+  app/controllers/api/v1/articles_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.3ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:28:47 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (13129.5ms)
+Completed 200 OK in 13169ms (Views: 13145.9ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:29:00 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.9ms)
+Completed 200 OK in 2ms (Views: 1.6ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:29:00 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:29:00 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:29:00 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:29:00 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:29:00 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:29:00 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:29:05 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (14.7ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:29:08 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (12.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:29:20 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (13.8ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:29:24 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.4ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:33:27 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (4319.7ms)
+Completed 200 OK in 4337ms (Views: 4327.0ms)
+Started GET "/" for 127.0.0.1 at 2016-05-25 16:33:31 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.7ms)
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-25 16:33:31 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-25 16:33:31 +0600
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-25 16:33:31 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-25 16:33:31 +0600
+Started GET "/assets/vendor.map" for 127.0.0.1 at 2016-05-25 16:33:32 +0600
+Started GET "/assets/frontend.map" for 127.0.0.1 at 2016-05-25 16:33:32 +0600
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:33:36 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:263:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:263:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (12.9ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:33:49 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (16.5ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-05-25 16:33:54 +0600
+
+LoadError (Unable to autoload constant Api::V1::ArticlesController, expected /home/mikhail/projects/emberBlogTwo/app/controllers/api/v1/articles_controller.rb to define it):
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:495:in `load_missing_constant'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `const_get'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:276:in `block in constantize'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.2) lib/active_support/inflector/methods.rb:259:in `constantize'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:566:in `get'
+  activesupport (4.2.5.2) lib/active_support/dependencies.rb:597:in `constantize'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/mikhail/.rvm/rubies/ruby-2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (19.8ms)

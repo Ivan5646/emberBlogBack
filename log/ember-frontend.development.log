@@ -1,0 +1,226 @@
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+Buildingversion: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...Building...
+
+Build successful - 8291ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 3381ms              
+Babel                                         | 2029ms              
+Babel                                         | 476ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 7159ms (550 ms)     
+
+file changed controllers/articles/new.coffee
+file changed templates/articles/new.emblem
+file changed routes/articles/index.coffee
+file changed templates/articles/index.emblem
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 1046ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 114ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 99ms                
+CoffeeScriptFilter                            | 93ms                
+Babel                                         | 58ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 298ms (22 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 99ms                
+CoffeeScriptFilter (2)                        | 97ms (48 ms)        
+TemplateCompiler (3)                          | 79ms (26 ms)        
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 938ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 96ms                
+SourceMapConcat: Concat: Vendor /assets/ve... | 87ms                
+Babel                                         | 68ms                
+Babel                                         | 56ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 232ms (17 ms)       
+CoffeeScriptFilter (2)                        | 100ms (50 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 87ms                
+TemplateCompiler (3)                          | 74ms (24 ms)        
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+Buildingversion: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+Buildingversion: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+Buildingversion: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...Building...
+
+Build successful - 8181ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 3373ms              
+Babel                                         | 2033ms              
+Babel                                         | 539ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 7079ms (544 ms)     
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 3129ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 374ms               
+CoffeeScriptFilter                            | 363ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 293ms               
+Babel                                         | 170ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 1088ms (83 ms)      
+CoffeeScriptFilter (2)                        | 365ms (182 ms)      
+SourceMapConcat: Concat: Vendor /asset... (1) | 293ms               
+TemplateCompiler (3)                          | 224ms (74 ms)       
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+Build successful - 3329ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 384ms               
+CoffeeScriptFilter                            | 255ms               
+Babel                                         | 239ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 205ms               
+Creator: Creator version.js                   | 172ms               
+Babel                                         | 168ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 1312ms (100 ms)     
+CoffeeScriptFilter (2)                        | 259ms (129 ms)      
+TemplateCompiler (3)                          | 219ms (73 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 205ms               
+Creator: Creator version.js (1)               | 172ms               
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+Build successful - 9488ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 3066ms              
+Babel                                         | 2234ms              
+Babel                                         | 616ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 7319ms (563 ms)     
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+Build successful - 2951ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 272ms               
+Babel                                         | 261ms               
+Babel                                         | 210ms               
+Babel                                         | 191ms               
+Creator: Creator version.js                   | 190ms               
+Babel                                         | 188ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 153ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 1057ms (81 ms)      
+CoffeeScriptFilter (2)                        | 275ms (137 ms)      
+TemplateCompiler (3)                          | 240ms (80 ms)       
+Creator: Creator version.js (1)               | 190ms               
+SourceMapConcat: Concat: Vendor /asset... (1) | 153ms               
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2110ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+SourceMapConcat: Concat: Vendor /assets/ve... | 293ms               
+Creator: Creator version.js                   | 144ms               
+Babel                                         | 138ms               
+CoffeeScriptFilter                            | 134ms               
+Babel                                         | 108ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 483ms (37 ms)       
+SourceMapConcat: Concat: Vendor /asset... (1) | 293ms               
+TemplateCompiler (3)                          | 227ms (75 ms)       
+Creator: Creator version.js (1)               | 144ms               
+CoffeeScriptFilter (2)                        | 137ms (68 ms)       
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 956ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 92ms                
+SourceMapConcat: Concat: Vendor /assets/ve... | 88ms                
+Babel                                         | 81ms                
+Babel                                         | 54ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 248ms (19 ms)       
+CoffeeScriptFilter (2)                        | 94ms (47 ms)        
+SourceMapConcat: Concat: Vendor /asset... (1) | 88ms                
+TemplateCompiler (3)                          | 74ms (24 ms)        
+
