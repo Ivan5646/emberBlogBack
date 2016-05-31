@@ -1,7 +1,6 @@
 module Api
   module V1
     class ArticlesController < ApplicationController
-      #http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
 
       respond_to :json
       before_action :set_article, only: [:show, :destroy, :update]

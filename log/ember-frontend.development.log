@@ -224,3 +224,129 @@ CoffeeScriptFilter (2)                        | 94ms (47 ms)
 SourceMapConcat: Concat: Vendor /asset... (1) | 88ms                
 TemplateCompiler (3)                          | 74ms (24 ms)        
 
+file changed components/article-row.coffee
+
+Build successful - 3682ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 444ms               
+Babel                                         | 294ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 520ms (260 ms)      
+Babel (13)                                    | 450ms (34 ms)       
+Funnel: Addon JS (7)                          | 395ms (56 ms)       
+ConfigReplace (3)                             | 195ms (65 ms)       
+
+file changed components/article-row.coffee
+
+Build successful - 314ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 42ms (3 ms)         
+CoffeeScriptFilter (2)                        | 38ms (19 ms)        
+
+file changed components/article-row.coffee
+
+Build successful - 364ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+CoffeeScriptFilter                            | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+CoffeeScriptFilter (2)                        | 40ms (20 ms)        
+Babel (13)                                    | 36ms (2 ms)         
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding.Building...
+
+Build successful - 16347ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 5043ms              
+Babel                                         | 4155ms              
+Babel                                         | 2115ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 13644ms (1049 ms)   
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...
+
+Build successful - 3272ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 307ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 266ms               
+Babel                                         | 242ms               
+CoffeeScriptFilter                            | 219ms               
+Creator: Creator version.js                   | 199ms               
+Babel                                         | 195ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 1206ms (92 ms)      
+SourceMapConcat: Concat: Vendor /asset... (1) | 266ms               
+CoffeeScriptFilter (2)                        | 222ms (111 ms)      
+Creator: Creator version.js (1)               | 199ms               
+TemplateCompiler (3)                          | 172ms (57 ms)       
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 4242ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 550ms               
+Babel                                         | 213ms               
+CoffeeScriptFilter                            | 213ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 1416ms (108 ms)     
+CoffeeScriptFilter (2)                        | 216ms (108 ms)      
+
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 2518ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 228ms               
+CoffeeScriptFilter                            | 202ms               
+Creator: Creator version.js                   | 200ms               
+Babel                                         | 167ms               
+SourceMapConcat: Concat: Vendor /assets/ve... | 155ms               
+TreeMerger (app)                              | 134ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 752ms (57 ms)       
+CoffeeScriptFilter (2)                        | 205ms (102 ms)      
+Creator: Creator version.js (1)               | 200ms               
+SourceMapConcat: Concat: Vendor /asset... (1) | 155ms               
+TemplateCompiler (3)                          | 151ms (50 ms)       
+TreeMerger (app) (1)                          | 134ms               
+

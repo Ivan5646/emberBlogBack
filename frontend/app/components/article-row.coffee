@@ -2,6 +2,6 @@
 
 ArticleRow = Ember.Component.extend
   article: null
-  newField: 123
+  newField: newField
 
 `export default ArticleRow`
