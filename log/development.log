@@ -3853,3 +3853,33 @@ Completed 201 Created in 128ms (Views: 3.8ms)
 Started GET "/api/v1/articles" for 127.0.0.1 at 2016-06-01 14:46:47 +0600
 Processing by Api::V1::ArticlesController#index as JSON
 Completed 200 OK in 9ms (Views: 6.4ms)
+Started GET "/" for 127.0.0.1 at 2016-06-01 16:31:41 +0600
+Processing by EmberCli::EmberController#index as HTML
+  Parameters: {"ember_app"=>:frontend}
+  Rendered inline template (0.2ms)
+  Rendered /home/mikhail/.rvm/gems/ruby-2.2.3/gems/ember-cli-rails-0.7.2/app/views/ember_cli/ember/index.html.erb (23919.7ms)
+Completed 200 OK in 24161ms (Views: 24128.0ms)
+Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-06-01 16:32:05 +0600
+Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-06-01 16:32:06 +0600
+Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-06-01 16:32:06 +0600
+Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-06-01 16:32:06 +0600
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-06-01 16:32:23 +0600
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"", "text"=>"without title"}}
+Completed 422 Unprocessable Entity in 50ms (Views: 0.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-06-01 16:32:24 +0600
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"", "text"=>"without title"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-06-01 16:32:24 +0600
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"", "text"=>"without title"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-06-01 16:32:24 +0600
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"", "text"=>"without title"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-06-01 16:32:25 +0600
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"", "text"=>"without title"}}
+Completed 422 Unprocessable Entity in 3ms (Views: 0.3ms)

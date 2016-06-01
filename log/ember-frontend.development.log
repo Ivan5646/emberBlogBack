@@ -350,3 +350,24 @@ SourceMapConcat: Concat: Vendor /asset... (1) | 155ms
 TemplateCompiler (3)                          | 151ms (50 ms)       
 TreeMerger (app) (1)                          | 134ms               
 
+version: 2.4.2
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/user-guide/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding.Building..Building...Building...
+
+Build successful - 4182ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 567ms               
+Babel                                         | 520ms               
+Babel                                         | 258ms               
+Babel                                         | 255ms               
+CoffeeScriptFilter                            | 250ms               
+Babel                                         | 223ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (13)                                    | 1985ms (152 ms)     
+CoffeeScriptFilter (2)                        | 254ms (127 ms)      
+

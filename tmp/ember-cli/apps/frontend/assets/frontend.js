@@ -782,7 +782,7 @@ define("frontend/templates/components/article-row", ["exports"], function (expor
 /* jshint ignore:start */
 
 define('frontend/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+140ed458"},"exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+7ef55b27"},"exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
@@ -790,7 +790,7 @@ define('frontend/config/environment', ['ember'], function(Ember) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+140ed458"});
+  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+7ef55b27"});
 }
 
 /* jshint ignore:end */

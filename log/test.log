@@ -265,3 +265,193 @@ Completed 201 Created in 3ms (Views: 0.9ms)
 Processing by Api::V1::ArticlesController#create as JSON
   Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
 Completed 201 Created in 2ms (Views: 0.9ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 405ms (Views: 356.5ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 31ms (Views: 1.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.6ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.6ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.5ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.5ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 3ms (Views: 1.4ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 69ms (Views: 57.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 25ms (Views: 20.6ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 534ms (Views: 1.8ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 81ms (Views: 69.2ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 0.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 69ms (Views: 57.3ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 0.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 84ms (Views: 71.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.0ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.6ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.5ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 269ms (Views: 235.0ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 20ms (Views: 0.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 26ms (Views: 0.2ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 1ms (Views: 0.1ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 69ms (Views: 57.0ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 0.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 78ms (Views: 66.4ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 0.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 48ms (Views: 0.2ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 1ms (Views: 0.1ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 76ms (Views: 63.9ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.8ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 2ms (Views: 0.7ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 111ms (Views: 99.4ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 6ms (Views: 1.2ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 3ms (Views: 1.1ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 3ms (Views: 1.1ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 3ms (Views: 1.1ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 30ms (Views: 0.2ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms)
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 392ms (Views: 380.2ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 8ms (Views: 1.7ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 3ms (Views: 1.4ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 3ms (Views: 1.4ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"name", "text"=>"text"}}
+Completed 201 Created in 4ms (Views: 1.6ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 10ms (Views: 0.2ms)
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"text"=>"title"}}
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms)
