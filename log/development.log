@@ -3846,3 +3846,10 @@ Started GET "/assets/vendor.css" for 127.0.0.1 at 2016-05-31 16:51:40 +0600
 Started GET "/assets/frontend.js" for 127.0.0.1 at 2016-05-31 16:51:40 +0600
 Started GET "/assets/frontend.css" for 127.0.0.1 at 2016-05-31 16:51:40 +0600
 Started GET "/assets/vendor.js" for 127.0.0.1 at 2016-05-31 16:51:40 +0600
+Started POST "/api/v1/articles" for 127.0.0.1 at 2016-06-01 14:46:47 +0600
+Processing by Api::V1::ArticlesController#create as JSON
+  Parameters: {"article"=>{"title"=>"without text", "text"=>""}}
+Completed 201 Created in 128ms (Views: 3.8ms)
+Started GET "/api/v1/articles" for 127.0.0.1 at 2016-06-01 14:46:47 +0600
+Processing by Api::V1::ArticlesController#index as JSON
+Completed 200 OK in 9ms (Views: 6.4ms)
