@@ -7,5 +7,6 @@ Router = Ember.Router.extend
 Router.map ->
   @route 'articles', ->
     @route 'new'
+    @route 'show', path: ':id'
 
 `export default Router`

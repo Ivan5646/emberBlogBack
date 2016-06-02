@@ -298,7 +298,10 @@ define('frontend/router', ['exports', 'ember', 'frontend/config/environment'], f
 
   Router.map(function () {
     return this.route('articles', function () {
-      return this.route('new');
+      this.route('new');
+      return this.route('show', {
+        path: ':id'
+      });
     });
   });
 
@@ -325,6 +328,17 @@ define('frontend/routes/articles/new', ['exports', 'ember'], function (exports, 
   });
 
   exports['default'] = ArticlesNewRoute;
+});
+define('frontend/routes/articles/show', ['exports', 'ember'], function (exports, _ember) {
+  var ArticlesRoute;
+
+  ArticlesRoute = _ember['default'].Route.extend({
+    model: function model(param) {
+      return this.store.findRecord('article', param.id);
+    }
+  });
+
+  exports['default'] = ArticlesRoute;
 });
 define('frontend/services/ajax', ['exports', 'ember-ajax/services/ajax'], function (exports, _emberAjaxServicesAjax) {
   Object.defineProperty(exports, 'default', {
@@ -482,34 +496,34 @@ define("frontend/templates/articles/index", ["exports"], function (exports) {
               "source": null,
               "start": {
                 "line": 1,
-                "column": 74
+                "column": 49
               },
               "end": {
                 "line": 1,
-                "column": 138
+                "column": 105
               }
             },
             "moduleName": "frontend/templates/articles/index.hbs"
           },
           isEmpty: false,
-          arity: 1,
+          arity: 0,
           cachedFragment: null,
           hasRendered: false,
           buildFragment: function buildFragment(dom) {
             var el0 = dom.createDocumentFragment();
-            var el1 = dom.createElement("li");
-            var el2 = dom.createComment("");
-            dom.appendChild(el1, el2);
+            var el1 = dom.createComment("");
             dom.appendChild(el0, el1);
             return el0;
           },
           buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
             var morphs = new Array(1);
-            morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0]), 0, 0);
+            morphs[0] = dom.createMorphAt(fragment, 0, 0, contextualElement);
+            dom.insertBoundary(fragment, 0);
+            dom.insertBoundary(fragment, null);
             return morphs;
           },
-          statements: [["content", "comment.text", ["loc", [null, [1, 117], [1, 133]]]]],
-          locals: ["comment"],
+          statements: [["content", "article.title", ["loc", [null, [1, 88], [1, 105]]]]],
+          locals: [],
           templates: []
         };
       })();
@@ -525,7 +539,7 @@ define("frontend/templates/articles/index", ["exports"], function (exports) {
             },
             "end": {
               "line": 1,
-              "column": 152
+              "column": 121
             }
           },
           "moduleName": "frontend/templates/articles/index.hbs"
@@ -540,19 +554,14 @@ define("frontend/templates/articles/index", ["exports"], function (exports) {
           var el2 = dom.createComment("");
           dom.appendChild(el1, el2);
           dom.appendChild(el0, el1);
-          var el1 = dom.createElement("ul");
-          var el2 = dom.createComment("");
-          dom.appendChild(el1, el2);
-          dom.appendChild(el0, el1);
           return el0;
         },
         buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
-          var morphs = new Array(2);
+          var morphs = new Array(1);
           morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0]), 0, 0);
-          morphs[1] = dom.createMorphAt(dom.childAt(fragment, [1]), 0, 0);
           return morphs;
         },
-        statements: [["content", "article.title", ["loc", [null, [1, 49], [1, 66]]]], ["block", "each", [["get", "article.comments", ["loc", [null, [1, 82], [1, 98]]]]], [], 0, null, ["loc", [null, [1, 74], [1, 147]]]]],
+        statements: [["block", "link-to", ["articles.show", ["get", "article.id", ["loc", [null, [1, 76], [1, 86]]]]], [], 0, null, ["loc", [null, [1, 49], [1, 117]]]]],
         locals: ["article"],
         templates: [child0]
       };
@@ -572,7 +581,7 @@ define("frontend/templates/articles/index", ["exports"], function (exports) {
           },
           "end": {
             "line": 1,
-            "column": 161
+            "column": 130
           }
         },
         "moduleName": "frontend/templates/articles/index.hbs"
@@ -597,7 +606,7 @@ define("frontend/templates/articles/index", ["exports"], function (exports) {
         dom.insertBoundary(fragment, null);
         return morphs;
       },
-      statements: [["block", "each", [["get", "model", ["loc", [null, [1, 26], [1, 31]]]]], [], 0, null, ["loc", [null, [1, 18], [1, 161]]]]],
+      statements: [["block", "each", [["get", "model", ["loc", [null, [1, 26], [1, 31]]]]], [], 0, null, ["loc", [null, [1, 18], [1, 130]]]]],
       locals: [],
       templates: [child0]
     };
@@ -675,6 +684,56 @@ define("frontend/templates/articles/new", ["exports"], function (exports) {
         return morphs;
       },
       statements: [["content", "customField", ["loc", [null, [1, 20], [1, 35]]]], ["element", "action", ["save"], ["on", "submit"], ["loc", [null, [1, 41], [1, 70]]]], ["attribute", "class", ["concat", ["field ", ["subexpr", "if", [["get", "model.errors.title", ["loc", [null, [1, 94], [1, 112]]]], "error"], [], ["loc", [null, [1, 89], [1, 122]]]]]]], ["inline", "input", [], ["value", ["subexpr", "@mut", [["get", "model.title", ["loc", [null, [1, 158], [1, 169]]]]], [], []]], ["loc", [null, [1, 144], [1, 171]]]], ["inline", "input", [], ["value", ["subexpr", "@mut", [["get", "model.text", ["loc", [null, [1, 229], [1, 239]]]]], [], []]], ["loc", [null, [1, 215], [1, 241]]]]],
+      locals: [],
+      templates: []
+    };
+  })());
+});
+define("frontend/templates/articles/show", ["exports"], function (exports) {
+  exports["default"] = Ember.HTMLBars.template((function () {
+    return {
+      meta: {
+        "fragmentReason": {
+          "name": "missing-wrapper",
+          "problems": ["multiple-nodes"]
+        },
+        "revision": "Ember@2.4.5",
+        "loc": {
+          "source": null,
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 45
+          }
+        },
+        "moduleName": "frontend/templates/articles/show.hbs"
+      },
+      isEmpty: false,
+      arity: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      buildFragment: function buildFragment(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createElement("h3");
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        var el1 = dom.createElement("p");
+        var el2 = dom.createComment("");
+        dom.appendChild(el1, el2);
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      buildRenderNodes: function buildRenderNodes(dom, fragment, contextualElement) {
+        var morphs = new Array(2);
+        morphs[0] = dom.createMorphAt(dom.childAt(fragment, [0]), 0, 0);
+        morphs[1] = dom.createMorphAt(dom.childAt(fragment, [1]), 0, 0);
+        return morphs;
+      },
+      statements: [["content", "model.title", ["loc", [null, [1, 4], [1, 19]]]], ["content", "model.text", ["loc", [null, [1, 27], [1, 41]]]]],
       locals: [],
       templates: []
     };
@@ -782,7 +841,7 @@ define("frontend/templates/components/article-row", ["exports"], function (expor
 /* jshint ignore:start */
 
 define('frontend/config/environment', ['ember'], function(Ember) {
-  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+7ef55b27"},"exportApplicationGlobal":true}};
+  return { 'default': {"modulePrefix":"frontend","environment":"development","baseURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"frontend","version":"0.0.0+ba205dcf"},"exportApplicationGlobal":true}};
 });
 
 /* jshint ignore:end */
@@ -790,7 +849,7 @@ define('frontend/config/environment', ['ember'], function(Ember) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+7ef55b27"});
+  require("frontend/app")["default"].create({"name":"frontend","version":"0.0.0+ba205dcf"});
 }
 
 /* jshint ignore:end */

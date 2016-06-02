@@ -115,6 +115,15 @@ define('frontend/tests/test-helper.jshint', ['exports'], function (exports) {
     assert.ok(true, 'test-helper.js should pass jshint.');
   });
 });
+define('frontend/tests/unit/controllers/articles/show-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+  (0, _emberQunit.moduleFor)('controller:articles/show', {});
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var controller;
+    controller = this.subject();
+    return assert.ok(controller);
+  });
+});
 /* jshint ignore:start */
 
 require('frontend/tests/test-helper');

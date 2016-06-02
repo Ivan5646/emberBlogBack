@@ -2,8 +2,7 @@ h3 Articles:
 
 each model as |article|
   p
-    = article.title
+    link-to 'articles.show' article.id
+      = article.title
 
-  ul
-    each article.comments as |comment|
-      li = comment.text
+
